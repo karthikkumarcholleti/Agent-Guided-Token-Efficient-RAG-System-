@@ -1,0 +1,57 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+
+# =========================
+# Model Artifacts / Checkpoints
+# =========================
+distilbert-memory-cl*/
+distilbert-query-class*/
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# =========================
+# Vector Stores / Indexes
+# =========================
+VectorStore/
+*.faiss
+*.index
+*.pkl
+
+
+# =========================
+# Logs & Runtime Files
+# =========================
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Temporary / Backup Files
+# =========================
+*.tmp
+*.bak
+*.swp
